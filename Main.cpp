@@ -12,11 +12,15 @@ void PlaySound(int frequency, int duration) {
 
 int main() {
     // Define piano key frequencies
-    const int numKeys = 7;
-    const int frequencies[numKeys] = {262, 294, 330, 349, 392, 440, 494};  // C4, D4, E4, F4, G4, A4, B4
+    const int numKeys = 12;
+    const int frequencies[numKeys] = {
+        261, 277, 293, 311, 329, 349, 369, 392, 415, 440, 466, 493
+    };  // C4, C#4, D4, D#4, E4, F4, F#4, G4, G#4, A4, A#4, B4
 
     // Define piano key labels
-    const char keyLabels[numKeys] = {'A', 'S', 'D', 'F', 'G', 'H', 'J'};
+    const char keyLabels[numKeys] = {
+        'A', 'W', 'S', 'E', 'D', 'F', 'T', 'G', 'Y', 'H', 'U', 'J'
+    };
 
     // Print piano key labels
     std::cout << "Virtual Piano\n";
