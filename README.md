@@ -39,10 +39,6 @@ The Virtual Piano is a simple program that allows you to play piano keys using y
 - The program uses the `Beep` function from the Windows API to generate sound. If you are using a different operating system, you may need to modify the sound playback mechanism.
 - You can customize the program by adding more piano keys or changing the frequencies and durations of the sounds.
 
-## License
-
-This program is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - The program was inspired by the need for a simple virtual piano for learning and experimentation purposes.
